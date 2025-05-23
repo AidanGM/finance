@@ -1,0 +1,16 @@
+dotenv
+pre-commit
+pytest
+flake8
+black
+coverage
+loguru
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+asyncpg
+dotenv
+
+# For development
+commitizen
