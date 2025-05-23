@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.10.0  # specify a version or tag
+    hooks:
+      - id: black
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.0.0   # specify a version or tag
+    hooks:
+      - id: flake8
+# ...other hooks as needed...
